@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5c2c2e1; /* Grey background */
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #000; /* Black company name color */
+    margin-bottom: 10px;
+}
+
+.company-name {
+    display: block; /* Display as block element */
+    width: 99%; /* Occupy full width of parent */
+    padding: 10px; /* Padding for spacing */
+    background-color: #181717; /* Black company name background */
+    color: #fff; /* White text color */
+}
+
+.slogan {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+header p {
+    font-size: 18px;
+    color: #030303;
+}
+
+.details {
+    margin-bottom: 30px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: #050505;
+}
+
+.details h2 {
+    font-size: 28px;
+    color: #000; /* Black header color */
+    border-bottom: 2px solid #0e0c0c; /* Black border bottom */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.contact {
+    display: block; /* Display as block element */
+    width: 99%; /* Occupy full width of parent */
+    padding: 10px; /* Padding for spacing */
+    background-color: #070707;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #fff; /* Black header color */
+    border-bottom: 2px solid #faf7f7; /* Black border bottom */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contact p{
+    color: #fff;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height to match width for a perfect circle */
+    object-fit: cover;
+    border-radius: 50%; /* Create a circle */
+    border: 4px solid #181717; /* Black border around the circle */
+}
+
+.icon {
+    width: 30px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.column {
+    flex: 0 0 48%; /* Adjust column width */
+    width: 99%;
+}
